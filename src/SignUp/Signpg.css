@@ -1,0 +1,147 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 180px;
+    background: #fff;
+    padding-bottom: 30px;
+    height: 450px;
+    width:400px;
+    border-radius: 10px;
+    background-image: url(https://img.freepik.com/premium-vector/network-connection-background-abstract-style_23-2148875738.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: linear-gradient(to right, rgb(70, 66, 66) , rgb(205, 205, 193)); */
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text{
+    margin-top: 0px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+
+.underline{
+    width: 55px;
+    height: 4px;
+    padding-top: 0;
+    background: #6a7c9f;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 20px;
+    display: flex;
+    padding-bottom: 10px;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    /* display: flex; */
+    align-items: center;
+    margin-top: 0;
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    background: #eaeaea;
+    border-radius: 25px;
+}
+
+.input img{
+    margin: 0px 10px;
+}
+
+.input input{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #111010;
+    font-size: 15px;
+}
+
+.forgot-password{
+    padding-left: 200px;
+    
+    margin-top: 5px;
+    color: #dce0ee;
+    font-size: 12px;
+}
+.forgot-password span{
+    text-decoration: underline;
+    color: rgb(247, 244, 251);
+    cursor: pointer;
+}
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #454446;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray{
+    background: #EAEAEA;
+    color: #676767;
+}
+.signbtn{
+    background-color: rgb(241, 241, 241);
+    border: 0ch;
+    border-radius: 25px;
+    height: 38px;
+    width: 90px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.signbtn:hover{
+    background-color: rgb(153, 65, 153);
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+.btn{
+   padding-top: 30px;
+    
+}
+.already{
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: left;
+    color: white;
+    font-size: small;
+
+}
+#r{
+    text-decoration: underline;
+    color:rgb(103, 153, 171);
+    cursor: pointer;
+    
+}
